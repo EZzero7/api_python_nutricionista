@@ -4,7 +4,7 @@ from models.modelos import NutricionistaModel, DietaModel, TurnoModel, PacienteM
 from fastapi.encoders import jsonable_encoder
 from fastapi.responses import JSONResponse
 from fastapi import HTTPException, status
-from security.jwt_manager_auth import *
+
 
 
 class servicesNutri():
